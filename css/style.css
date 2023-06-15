@@ -98,7 +98,7 @@ body {
 /*issues*/
 .issue-wrapper {
   /* 10px arriba, 3px derecha, 30px abajo, 5px izquierda */
-  margin: 6rem 0 15rem 0;
+  margin: 6rem 0 12rem 0;
 }
 #issue_1 .issue-wrapper:last-child {
   /* 10px arriba, 3px derecha, 30px abajo, 5px izquierda */
