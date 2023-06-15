@@ -82,6 +82,11 @@ body {
   font-family: var(--ff-body);
   background: var(--clr-pink);
 }
+
+.main {
+  display: grid;
+}
+
 /* header - logo */
 .logo-wrapper {
   margin: 1.3rem 1rem 0 1rem;
@@ -93,7 +98,11 @@ body {
 /*issues*/
 .issue-wrapper {
   /* 10px arriba, 3px derecha, 30px abajo, 5px izquierda */
-  margin: 6rem 0 0 0;
+  margin: 6rem 0 15rem 0;
+}
+#issue_1 .issue-wrapper:last-child {
+  /* 10px arriba, 3px derecha, 30px abajo, 5px izquierda */
+  margin: 6rem 0 7rem 0;
 }
 
 .cover-wrapper {
@@ -101,8 +110,12 @@ body {
 }
 
 .description {
-  line-height: 3rem;
+  line-height: 2.5rem;
   font-size: 1.2rem;
+}
+
+.buy {
+  line-height: 2rem;
 }
 
 .link {
@@ -114,6 +127,27 @@ body {
   text-decoration: underline;
 }
 
+.footer {
+  text-align: center;
+  line-height: 1.5rem;
+}
+
+.footer-description {
+  font-size: 1.22rem;
+  margin: 0 1.5rem 1rem 1.5rem;
+}
+
+.footer-link {
+  color: black;
+}
+
+.footer-bar {
+  /* 10px arriba, 3px derecha, 30px abajo, 5px izquierda */
+  margin: 1.5rem 0 1.5rem 0;
+  line-height: 5rem;
+  font-size: 1.2rem;
+}
+
 /*clases de utilidad*/
 .content-center {
   text-align: center;
@@ -121,6 +155,9 @@ body {
 
 .fw-medium {
   font-weight: 500;
+}
+.fw-bold {
+  font-weight: 700;
 }
 
 .uppercase {
