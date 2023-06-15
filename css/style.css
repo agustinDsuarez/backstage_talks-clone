@@ -81,6 +81,7 @@ svg {
 body {
   font-family: var(--ff-body);
   background: var(--clr-pink);
+  transition: 0.3s ease-in;
 }
 
 .main {
