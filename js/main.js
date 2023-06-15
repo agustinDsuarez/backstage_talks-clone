@@ -19,7 +19,7 @@ window.addEventListener("scroll", () => {
   } else if (scroll >= 2800 && scroll < 3600) {
     // issue #3
     body.style.backgroundColor = "#ffbe00";
-  } else if (scroll >= 3600 && scroll < 4200) {
+  } else if (scroll >= 3600 && scroll < 4600) {
     // issue #2
     body.style.backgroundColor = "#1d3fbb";
   } else {
